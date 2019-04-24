@@ -29,6 +29,7 @@ Optional configuration:
 - Container file `/usr/src/app/scripts/configure-printer.sh` can be overridden if alternative
 configuration is desirable. See the file in this repository as an example.
 
+
 	docker run -it \
 	--privileged \
 	-v /dev:/dev \
