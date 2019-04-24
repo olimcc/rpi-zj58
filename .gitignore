@@ -1,0 +1,13 @@
+.vagrant/
+ionic.project
+.DS_Store
+.env
+*sw*
+venv/
+tomcat-local
+datasets
+*.pyc
+.ipynb_checkpoints
+__pycache__
+node_modules
+src.egg-info
