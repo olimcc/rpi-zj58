@@ -17,7 +17,7 @@ docker run -it --privileged -v /dev:/dev --device /dev/vchiq rpi-zj58:latest ech
 	--privileged \
 	-v /dev:/dev \
 	rpi-zj58:latest \
-    bash
+	bash
 
 And test:
 
@@ -35,4 +35,4 @@ configuration is desirable. See the file in this repository as an example.
 	-e PRINTER_BAUD_RATE=9600 \
 	-v my-custom-configure-printer.sh:/usr/src/app/scripts/configure-printer.sh \
 	rpi-zj58:latest \
-    bash
+	bash
