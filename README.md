@@ -1,6 +1,6 @@
 ### RaspberryPi ZJ-58 thermal printer
 
-Container to simply thermal printer integration from a Raspberry Pi.
+Simple thermal printer integration for Raspberry Pi.
 
 Inspired by [Networked Thermal Printer using Raspberry Pi and CUPS](https://learn.adafruit.com/networked-thermal-printer-using-cups-and-raspberry-pi/overview)
 
