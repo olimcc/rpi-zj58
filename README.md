@@ -29,7 +29,7 @@ Optional configuration:
 - Container file `/usr/src/app/scripts/configure-printer.sh` can be overridden if alternative
 configuration is desirable. See the file in this repository as an example.
 
-
+	```
 	docker run -it \
 	--privileged \
 	-v /dev:/dev \
@@ -37,3 +37,4 @@ configuration is desirable. See the file in this repository as an example.
 	-v my-custom-configure-printer.sh:/usr/src/app/scripts/configure-printer.sh \
 	rpi-zj58:latest \
 	bash
+	```
